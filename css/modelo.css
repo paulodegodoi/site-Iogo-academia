@@ -1,0 +1,222 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/maxO_TVsaeZNlEunsplashmin2.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 80px;
+    font-family: sans-serif;
+}
+
+.data-content {
+    width: 1130px;
+    height: 100%;
+    margin: auto;
+}
+
+
+/** navbar init  **/
+
+.navbar {
+    height: 80px;
+    background: white;
+}
+
+.navbar .logo {
+    height: 30px;
+}
+
+.navbar .data-content {
+    display: flex;
+    align-items: center;
+}
+
+
+/** navbar end **/
+
+
+/** section header init **/
+
+.section-header {
+    margin-top: 50px;
+    height: 750px;
+}
+
+.section-header .box-border {
+    height: 500px;
+    width: 500px;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-header .box-border .subtitle {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.section-header .box-border .title {
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.section-header .box-border .data {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.section-header .box-border .data hr {
+    height: 8px;
+    background: white;
+    border: 0px;
+    float: left;
+    width: 80%;
+}
+
+.section-header .data-content {
+    display: flex;
+    justify-content: right;
+}
+
+
+/** section header end **/
+
+
+/** section highlight init **/
+
+.section-highlight {
+    background-color: #33bdd8;
+    height: 270px;
+    width: 100%;
+}
+
+.section-highlight .box {
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: -85px;
+    padding: 30px;
+}
+
+.section-highlight .box h1 {
+    font-size: 2rem;
+}
+
+.section-highlight .box button {
+    border: 1px solid lightblue;
+    background: transparent;
+    height: 50px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.section-highlight .data-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/** section highlight end **/
+
+
+/** primeira section start **/
+
+.primeira-section {
+    background: white;
+    height: 800px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.primeira-section .left {
+    height: 100%;
+    width: 45%;
+}
+
+.primeira-section .right {
+    height: 100%;
+    width: 50%;
+}
+
+.primeira-section .right h1 {
+    font-size: 3rem;
+    color: #33bdd8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.primeira-section .right p,
+.primeira-section .left p {
+    font-size: 20px;
+}
+
+.primeira-section .right a {
+    color: #33bdd8;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.primeira-section .data-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/** primeira section end **/
+
+
+/** segunda section init **/
+
+.segunda-section {
+    background-color: #292d33;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.segunda-section .data-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.segunda-section .data-content .left {
+    width: 40%;
+}
+
+.segunda-section .data-content .right {
+    width: 55%;
+}
+
+.segunda-section .data-content .right .subtitle {
+    margin-top: 60px;
+    text-align: center;
+    color: pink;
+}
+
+.segunda-section .data-content .right .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #33bdd8;
+}
+
+.segunda-section .data-content .right .details {
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.segunda-section .data-content .right .details .detail-item {
+    width: 30%;
+}
+
+.segunda-section .data-content .right .details .detail-item h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+/** segunda section end **/

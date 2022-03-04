@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 80px;
+}
+
+.destaque {
+    width: 450px;
+    height: 300px;
+    top: 120px;
+    right: 400px;
+    position: absolute;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 100px 20px;
+    color: white;
+}
+
+.content-card {
+    border: 1px solid black;
+    position: absolute;
+    top: 800px;
+    left: 400px;
+}
+
+.card {
+    display: inline-block;
+    border: 1px solid white;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+}
+
+.content-training {
+    text-align: center;
+    padding: 50px ;
+}
+
+.treino {
+    display: inline-block;
+    width: 500px;
+}
+
+.correr {
+    border: 10px solid #33BDD8;
+}
+
+footer {
+    background-color: #292D33;
+    padding: 60px;
+}
+
+.content-footer {
+    text-align: center;
+    color: white;
+}
+
+.footer-box {
+    width: 500px;
+    display: inline-block;
+}
