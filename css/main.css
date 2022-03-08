@@ -12,7 +12,12 @@ body {
 
 header {
     height: 80px;
-    background-color: white;
+    background-color: #292D33;
+}
+
+header h2 {
+    color: white;
+    margin-left: 300px;       
 }
 
 .logo {
@@ -86,14 +91,23 @@ header {
     height: 250px;
     padding: 30px;
     background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.card p {
+    height: 100px;
 }
 
 .card button {
-    border: 1px solid aqua;
-    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #292D33;
     height: 50px;
     width: 100px;
-    font-size: 14px;
+    font-size: 1em;
+    cursor: pointer;
 }
 
 /** section de cards end **/
@@ -103,7 +117,7 @@ header {
 .primeira-section {
     background-color: white;
     height: 800px;
-    padding: 60px 0px;
+    padding-top: 60px;
 }
 
 .primeira-section .data-content {
@@ -156,6 +170,10 @@ header {
     width: 40%;
 }
 
+.segunda-section .data-content .data-left img {
+    height: 100%;
+}
+
 .segunda-section .data-content .data-right {
     width: 55%;
 }
@@ -184,22 +202,38 @@ header {
 
 .segunda-section .detail-item h1 {
     font-size: 2.2em;
-    margin-left: 15px;
+    text-align: center;
+}
+
+.segunda-section .detail-item p {
+    text-align: center;
 }
 
 /** segunda section end **/
 
+/** media query responsiva start **/
+
 @media (max-width: 1150px) {
-
-    header {
-        background-color: #292D33;
-    }
-
+    
     body {
         background: url(../images/maxO_TVsaeZNlEunsplashmin2.jpg);
         background-position: -300px 80px;
         background-repeat: no-repeat;
     }
+
+    header .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo h2{
+        font-size: 1em;
+        color: white;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
 
     .box-section {
         height: 700px;
@@ -282,3 +316,5 @@ header {
         margin-top: 0px;
     }
 }
+
+/** media query responsiva end **/
