@@ -167,11 +167,15 @@ header h2 {
 }
 
 .segunda-section .data-content .data-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40%;
 }
 
 .segunda-section .data-content .data-left img {
-    height: 100%;
+    width: 100%;
+    height: 80%;
 }
 
 .segunda-section .data-content .data-right {
@@ -210,6 +214,73 @@ header h2 {
 }
 
 /** segunda section end **/
+
+/** terceira section start **/
+
+.terceira-section {
+    position: relative;
+    background-color: white;
+    padding: 60px 0px;
+}
+
+.terceira-section .data-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.terceira-section .data-content .data-left {
+    width: 45%;
+    height: 100%;
+}
+
+.terceira-section .data-content .data-right {
+    width: 45%;
+    height: 100%;
+}
+
+.terceira-section .data-content img {
+    width: 100%;
+}
+
+.terceira-section .data-mid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #33bdd8;
+    color: white;
+    width: 400px;
+    height: 300px;
+}
+
+.terceira-section .data-mid .data-text {
+    display: block;
+    text-align: center;
+}
+
+.terceira-section a {
+    color: white;
+    font-weight: bold;
+}
+
+.quarta-section {
+    background-color: #33bdd8;
+    height: 400px;
+}
+
+.quarta-section .data-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    color: white;
+}
+
+/** terceira section start **/
 
 /** media query responsiva start **/
 
