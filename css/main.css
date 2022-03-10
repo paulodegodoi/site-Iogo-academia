@@ -27,7 +27,7 @@ header h2 {
 
 .data-content {
     min-width: 350px;
-    width: 1130px;
+    width: 1100px;
     margin: auto;
     height: 100%;
 }
@@ -230,12 +230,10 @@ header h2 {
 
 .terceira-section .data-content .data-left {
     width: 45%;
-    height: 100%;
 }
 
 .terceira-section .data-content .data-right {
     width: 45%;
-    height: 100%;
 }
 
 .terceira-section .data-content img {
@@ -252,8 +250,8 @@ header h2 {
     padding: 30px;
     background-color: #33bdd8;
     color: white;
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
 }
 
 .terceira-section .data-mid .data-text {
@@ -261,10 +259,20 @@ header h2 {
     text-align: center;
 }
 
-.terceira-section a {
+.terceira-section .data-mid .data-text h1 {
+    font-size: 2em;
+}
+
+.terceira-section .data-mid .data-text a {
     color: white;
     font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
+
+/** terceira section end **/
+
+/** quarta section start **/
 
 .quarta-section {
     background-color: #33bdd8;
@@ -280,7 +288,106 @@ header h2 {
     color: white;
 }
 
-/** terceira section start **/
+/** quarta section end **/
+
+/** quinta section start **/
+
+.quinta-section {
+    height: 600px;
+    padding: 60px 0px;
+}
+
+.quinta-section .data-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quinta-section .data-content .data-left {
+    width: 40%;
+}
+
+.quinta-section .data-content .data-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.quinta-section .data-content .data-right {
+    width: 55%;
+}
+
+.quinta-section .data-content .data-right img {
+    height: 50%;
+    width: 100%;
+}
+
+.quinta-section .data-content .data-right .data-text {
+    box-sizing: border-box;
+    padding: 30px;
+    height: 50%;
+}
+
+.quinta-section .data-content .data-right .data-text h1 {
+    font-size: 3.5em;
+    color: #33bdd8;
+}
+
+.quinta-section .data-content .data-right .data-text a {
+    color: #33bdd8;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.quinta-section .data-content .data-right .box-details {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.quinta-section .data-content .data-right .box-details .box-left {
+    width: 45%;
+}
+
+.quinta-section .data-content .data-right .box-details .box-left img {
+    height: 100%;
+}
+
+.quinta-section .data-content .data-right .box-details .box-right {
+    width: 50%;
+    background-color: #33bdd8;
+    color: white;
+}
+
+.quinta-section .data-content .data-right .box-details .box-right .data-box {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+}
+
+.quinta-section .data-content .data-right .box-details .box-right .data-box .social-media img {
+    width: 30px;
+    padding-right: 15px;
+}
+
+/** quinta section end **/
+
+footer {
+    height: 80px;
+    background-color: #292D33;
+}
+
+footer .social-media {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 30px;
+    padding: 5px;
+}
 
 /** media query responsiva start **/
 
