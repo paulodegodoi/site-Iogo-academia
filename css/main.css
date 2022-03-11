@@ -25,11 +25,15 @@ header h2 {
     align-items: center;
 }
 
+
 .data-content {
-    min-width: 350px;
     width: 1100px;
     margin: auto;
     height: 100%;
+}
+
+.data-content img {
+    box-sizing: border-box;
 }
 
 .box-section .box-content {
@@ -395,12 +399,11 @@ footer img {
     
     body {
         background: url(../images/maxO_TVsaeZNlEunsplashmin2.jpg);
-        background-position: -300px 80px;
+        background-position: -400px 80px;
         background-repeat: no-repeat;
     }
 
     header .logo {
-        display: flex;
         flex-direction: column;
         justify-content: center;
     }
@@ -409,7 +412,7 @@ footer img {
         font-size: 1em;
         color: white;
         margin-top: 5px;
-        margin-left: 20px;
+        margin: auto;
     }
 
 
@@ -418,11 +421,15 @@ footer img {
     }
 
     .box-section .box-content .box-titles h1 {
-        text-shadow: 3px 3px black
+        text-shadow: 3px 3px 3px black
+    }
+
+    .box-section .box-content .box-titles .title {
+        font-size: 3em;
     }
     
     .data-content {
-        max-width: 350px;
+        max-width: 320px;
         margin: auto;
         height: 100%;
     }
@@ -434,8 +441,7 @@ footer img {
 
     .section-cards .content-cards {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        text-align: center;
     }
 
     .section-cards .card {
@@ -443,7 +449,8 @@ footer img {
         height: 200px;
         border: 1px solid #292D33;
         border-radius: 5px;
-        margin: 10px;
+        margin: auto;
+        width: 200px;
     }
 
     .primeira-section {
@@ -467,6 +474,11 @@ footer img {
 
     .primeira-section .data-content .data-right {
         width: 100%;
+    }
+
+    .primeira-section .data-content .data-right h1 {
+        font-size: 2.5em;
+        text-align: center;
     }
 
     .segunda-section {
@@ -505,12 +517,15 @@ footer img {
 
     .terceira-section .data-content .data-mid {
         background-color: #292D33;
+        top: 84%;
+        width: 100%;
+        height: 130px;
+        padding: 10px 0px 0px 0px;
     }
 
     .terceira-section .data-content .data-right {
         width: 100%;
-        padding: 20px;
-        /* background: url(../images/sxc.jpg); */
+        height: 100%;
     }
 
     .terceira-section .data-content .data-right img {
@@ -518,26 +533,19 @@ footer img {
         height: 100%;
     }
 
-    .terceira-section .data-content .data-mid {
-        top: 70%;
-        width: 200px;
-        padding: 0;
-        left: 25%;
-        border-radius: 5px;
-    }
-
     .quarta-section {
         width: 100%;
         height: 100%;
+    }
+
+    .quarta-section .data-content .title-mid {
+        padding: 20px;
     }
 
     .quinta-section {
         width: 100%;
         height: 100%;
         background: url(../images/billionphotos1844984.jpg);
-    }
-
-    .quinta-section .data-content {
     }
 
     .quinta-section .data-content .data-left {
