@@ -547,6 +547,8 @@ footer img {
         width: 100%;
         height: 100%;
         background: url(../images/billionphotos1844984.jpg);
+        background-position-x: -150px;
+        background-repeat: no-repeat;
     }
 
     .quinta-section .data-content .data-left {
